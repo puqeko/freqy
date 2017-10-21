@@ -33,5 +33,5 @@ about ~31&nbsp;kHz. This is due to transient switching behaviour on the Arduino.
 ## Useful Resources
 
 - [Secrets Of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
-- [Arduion Timers](https://arduino-info.wikispaces.com/Timers-Arduino)
+- [Arduino Timers](https://arduino-info.wikispaces.com/Timers-Arduino)
 - [ATmega328/P Datasheet](http://www.atmel.com/Images/Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_Datasheet.pdf)
