@@ -13,7 +13,7 @@ to construct a simple [low pass filter](http://www.electronics-tutorials.ws/filt
 
 ![Low pass filter](https://user-images.githubusercontent.com/12654833/31846378-59b172f8-b667-11e7-8f96-c55c4cfb1870.png)
 
-Values for C and R could be 3.3&nbsp;nF and 10 k&Omega; respectivly. The idea is to filter out the ~31&nbsp;kHz sqaure wave PWM frequency
+Values for C and R could be 3.3&nbsp;nF and 10 k&Omega; respectivly. The idea is to ground the ~31&nbsp;kHz sqaure wave PWM frequency
 leaving the average of the duty cycle. Since the duty cycle is sinusoidally varing, so is the filtered signal. You can
 use the formula 
 
