@@ -1,14 +1,13 @@
-// Timers.c
+// Timers.cpp
+// Help with setting the timer registers on an Arduino Uno.
+// https://github.com/puqeko/freqy
 // 20-09-17
-// Support funtion for using builtin timers.
 
 #include "timers.h"
 
-// reset timer's 1 and 2
-// leave timer 0 alone
-void clear_registers()
+void reset_timer2()
 {
-    TCCR1A = TCCR1B = TCCR2A = TCCR2B = 0;  // reset control registers
-    TCNT1 = TCNT2 = 0;  // counter value
-    TIFR1 = TIFR2 = 0;  // flag/event register
+    TCCR2A = TCCR2B = 0;  // Reset control registers.
+    TCNT2 = 0;  // Counter value.
+    TIFR2 = 0;  // Flag/Event register.
 }
