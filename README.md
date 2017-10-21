@@ -8,7 +8,7 @@ sine wave signal.
 ## Setup
 
 Download the repository and open `freqy.ino` with the [Ardunio IDE](https://www.arduino.cc/en/Main/Software).
-The example program generates a frequency of 440&nbsp;Hz on pin 11. Use a capacitor and resistor
+The example program generates a signal on pin 11. The 440&nbsp;Hz signal must be filtered out. Use a capacitor and resistor
 to construct a simple [low pass filter](http://www.electronics-tutorials.ws/filter/filter_2.html) as shown below.
 
 ![Low pass filter](https://user-images.githubusercontent.com/12654833/31846378-59b172f8-b667-11e7-8f96-c55c4cfb1870.png)
